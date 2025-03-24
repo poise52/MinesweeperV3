@@ -13,7 +13,7 @@ function generateGrid(rows, cols, mines) {
         grid.push(row);
     }
 
-    // Place mines
+    
     let placedMines = 0;
     while (placedMines < mines) {
         const randRow = Math.floor(Math.random() * rows);
@@ -24,7 +24,7 @@ function generateGrid(rows, cols, mines) {
         }
     }
 
-    // Calculate counts
+    
     for (let i = 0; i < rows; i++) {
         for (let j = 0; j < cols; j++) {
             if (!grid[i][j].mine) {
