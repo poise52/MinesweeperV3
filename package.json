@@ -1,0 +1,29 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "A Minesweeper game built with Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix"
+  },
+  "keywords": [
+    "vue",
+    "minesweeper",
+    "game"
+  ],
+  "author": "poise52",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "eslint-plugin-vue": "^10.0.0"
+  }
+}
